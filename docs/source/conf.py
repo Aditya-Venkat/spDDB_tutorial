@@ -19,7 +19,6 @@ extensions = [
 ]
 
 nb_execution_mode = "off"
-]
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
