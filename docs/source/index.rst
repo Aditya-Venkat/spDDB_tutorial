@@ -1,39 +1,77 @@
-# spDDB
-A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies [https://doi.org/10.64898/2026.05.11.724248](https://doi.org/10.64898/2026.05.11.724248).The Github provides installation instructions, set up and runnable files used in the benchmarking. The overview of the benchmarking is as follows.
+spDDB
+======
 
-<img src='overview.png'>
+A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies.
 
-## Installation
-Installation can be done by directly cloning the github repo - https://github.com/Zafar-Lab/spDDB_datasets.github.io
+Paper: https://doi.org/10.64898/2026.05.11.724248
 
-We recommend users to directly clone our stable `main` branch and create conda environment of benchmarking methods using yml files provided in ./ENVIRONMENTS/. Executing these yml files will install all required packages and dependencies. Below is an example showing how to create environments for SynthST and a benchmarking method.
+.. image:: overview.png
+   :alt: spDDB benchmarking overview
+   :align: center
+   :width: 100%
 
-```
-git clone https://github.com/Zafar-Lab/spDDB.git
-cd spDDB/Environments
+Installation
+------------
 
-conda env create -f SynthST.yml
-conda activate SynthST
+Clone the repository at https://github.com/Zafar-Lab/spDDB_datasets.github.io and create the required conda environments using the environment files provided in ``./Environments/``.
 
-conda env create -f method_name.yml
-conda activate method_name
+We recommend using the stable ``main`` branch.
 
-```
+.. code-block:: bash
 
-## What Computational tasks can spDDB be used for?
+   git clone https://github.com/Zafar-Lab/spDDB.git
+   cd spDDB/Environments
 
-`spDDB` can be used for:
-1. Benchmarking study of spatial deconvolution methods
-2. Benchmarking study of domain detection methods
-3. Providing a suite of evaluation metrics for spatial transcriptomics, including bivariate spatial metrics, cell-type shape characterization metrics, and rare cell-type metrics
-4. Simulating synthetic spatial transcriptomics data and synthetic cell-type proportions using `SynthST`
-5. Rich spatial dataset repository spanning brain, cancer and organs across tissue, species and technologies.
+   conda env create -f SynthST.yml
+   conda activate SynthST
 
-## spDDB Website
-The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
+   conda env create -f method_name.yml
+   conda activate method_name
 
-## Contributing
-In case of any bug reports, enhancement requests, general questions, and other contributions, please create an issue. For more substantial contributions, please fork this repo, push your changes to your fork, and submit a pull request with a good commit message.
+What Computational Tasks Can spDDB Be Used For?
+-----------------------------------------------
 
-## Cite this article
-Ajita Shree, Aditya V*, Tanush Kumar* and Hamim Zafar, A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies, * equal contribution, https://doi.org/10.64898/2026.05.11.724248
+``spDDB`` provides a comprehensive framework for:
+
+#. Benchmarking spatial deconvolution methods.
+#. Benchmarking spatial domain detection methods.
+#. Evaluating spatial transcriptomics methods using a rich collection of metrics, including:
+
+   * Bivariate spatial metrics
+   * Cell-type shape characterization metrics
+   * Rare cell-type metrics
+
+#. Simulating synthetic spatial transcriptomics datasets and cell-type proportions using ``SynthST``.
+#. Accessing a diverse repository of spatial transcriptomics datasets spanning multiple tissues, species, and technologies.
+
+spDDB Dataset Repository
+------------------------
+
+Synthetic datasets and benchmarking resources are available at:
+
+https://zafar-lab.github.io/spDDB_datasets.github.io/
+
+Contributing
+------------
+
+We welcome bug reports, enhancement requests, and general questions through GitHub Issues.
+
+For substantial contributions:
+
+#. Fork the repository.
+#. Create a feature branch.
+#. Commit your changes with clear commit messages.
+#. Submit a pull request for review.
+
+Citation
+--------
+
+If you use spDDB in your research, please cite:
+
+Ajita Shree, Aditya V\*, Tanush Kumar\*, and Hamim Zafar.
+
+*A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies.*
+
+\* Equal contribution.
+
+https://doi.org/10.64898/2026.05.11.724248
