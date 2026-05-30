@@ -75,3 +75,17 @@ Ajita Shree, Aditya V\*, Tanush Kumar\*, and Hamim Zafar.
 \* Equal contribution.
 
 https://doi.org/10.64898/2026.05.11.724248
+
+
+Tutorials
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   tutorials/1_SynthST_generate_synthetic_cell_type_proportions
+   tutorials/2_SynthST_generate_synthetic_spatial_gene_expression
+   tutorials/3_SynthST_Simulation_strategy2_Lung_Cancer
+   tutorials/4_spDDB_deconvolution_evaluation
+   tutorials/5_spDDB_rare_celltype
+   tutorials/6_spDDB_shape_characterization
