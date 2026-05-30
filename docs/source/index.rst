@@ -76,9 +76,12 @@ Ajita Shree, Aditya V\*, Tanush Kumar\*, and Hamim Zafar.
 
 https://doi.org/10.64898/2026.05.11.724248
 
+
+Tutorials
+---------
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Tutorials
+   :maxdepth: 1
 
    tutorials/1_SynthST_generate_synthetic_cell_type_proportions
    tutorials/2_SynthST_generate_synthetic_spatial_gene_expression
