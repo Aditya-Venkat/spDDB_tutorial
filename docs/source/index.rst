@@ -89,4 +89,3 @@ Tutorials
    tutorials/4_spDDB_deconvolution_evaluation
    tutorials/5_spDDB_rare_celltype
    tutorials/6_spDDB_shape_characterization
-   tutorials/7_spDDB_domain_evaluation
