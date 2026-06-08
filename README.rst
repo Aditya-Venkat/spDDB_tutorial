@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
+Read the docs for spDDB
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This read the docs page is for the spDDB package and contains 7 tutorials to reproduce various parts of the analysis and for using the simulator.
